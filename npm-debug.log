@@ -1,0 +1,214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'create-react-appnpm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'create-react-app' ]
+2 info using npm@3.10.6
+3 info using node@v6.3.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData create-react-appnpm
+8 silly fetchPackageMetaData install
+9 silly fetchPackageMetaData create-react-app
+10 silly fetchNamedPackageData create-react-appnpm
+11 silly mapToRegistry name create-react-appnpm
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'create-react-appnpm',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'create-react-appnpm',
+14 silly mapToRegistry   name: 'create-react-appnpm',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/create-react-appnpm
+16 silly fetchNamedPackageData install
+17 silly mapToRegistry name install
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'install',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'install',
+20 silly mapToRegistry   name: 'install',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/install
+22 silly fetchNamedPackageData create-react-app
+23 silly mapToRegistry name create-react-app
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'create-react-app',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'create-react-app',
+26 silly mapToRegistry   name: 'create-react-app',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/create-react-app
+28 verbose request uri https://registry.npmjs.org/create-react-appnpm
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 8:18:22 PM
+31 verbose request id 82f9243ec2b07529
+32 http request GET https://registry.npmjs.org/create-react-appnpm
+33 verbose request uri https://registry.npmjs.org/install
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 8:18:23 PM
+36 http request GET https://registry.npmjs.org/install
+37 verbose request uri https://registry.npmjs.org/create-react-app
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 8:18:23 PM
+40 verbose etag "765QITP887Y20OZUUDZFHFWC0"
+41 http request GET https://registry.npmjs.org/create-react-app
+42 http 304 https://registry.npmjs.org/create-react-app
+43 verbose headers { date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   etag: '"765QITP887Y20OZUUDZFHFWC0"',
+43 verbose headers   age: '0',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-syd1622-SYD',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1476091103.056183,VS0,VE687',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     etag: '"765QITP887Y20OZUUDZFHFWC0"',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-syd1622-SYD',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1476091103.056183,VS0,VE687',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose etag https://registry.npmjs.org/create-react-app from cache
+46 verbose get saving create-react-app to /Users/vanessabrewster/.npm/registry.npmjs.org/create-react-app/.cache.json
+47 verbose correctMkdir /Users/vanessabrewster/.npm correctMkdir not in flight; initializing
+48 http 200 https://registry.npmjs.org/install
+49 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+49 verbose headers   etag: '"4ZID2457HIOAG6R5OHH5B3I63"',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'content-encoding': 'gzip',
+49 verbose headers   'cache-control': 'max-age=300',
+49 verbose headers   'content-length': '7526',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   age: '0',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'x-served-by': 'cache-syd1626-SYD',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1476091103.050766,VS0,VE881',
+49 verbose headers   vary: 'Accept-Encoding' }
+50 silly get cb [ 200,
+50 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+50 silly get     etag: '"4ZID2457HIOAG6R5OHH5B3I63"',
+50 silly get     'content-type': 'application/json',
+50 silly get     'content-encoding': 'gzip',
+50 silly get     'cache-control': 'max-age=300',
+50 silly get     'content-length': '7526',
+50 silly get     'accept-ranges': 'bytes',
+50 silly get     date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     age: '0',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-syd1626-SYD',
+50 silly get     'x-cache': 'MISS',
+50 silly get     'x-cache-hits': '0',
+50 silly get     'x-timer': 'S1476091103.050766,VS0,VE881',
+50 silly get     vary: 'Accept-Encoding' } ]
+51 verbose get saving install to /Users/vanessabrewster/.npm/registry.npmjs.org/install/.cache.json
+52 verbose correctMkdir /Users/vanessabrewster/.npm correctMkdir not in flight; initializing
+53 http 404 https://registry.npmjs.org/create-react-appnpm
+54 verbose headers { 'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=0',
+54 verbose headers   'content-length': '2',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   age: '0',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'x-served-by': 'cache-syd1625-SYD',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1476091103.053619,VS0,VE916',
+54 verbose headers   vary: 'Accept-Encoding' }
+55 silly get cb [ 404,
+55 silly get   { 'content-type': 'application/json',
+55 silly get     'cache-control': 'max-age=0',
+55 silly get     'content-length': '2',
+55 silly get     'accept-ranges': 'bytes',
+55 silly get     date: 'Mon, 10 Oct 2016 09:18:23 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     age: '0',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-syd1625-SYD',
+55 silly get     'x-cache': 'MISS',
+55 silly get     'x-cache-hits': '0',
+55 silly get     'x-timer': 'S1476091103.053619,VS0,VE916',
+55 silly get     vary: 'Accept-Encoding' } ]
+56 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/create-react-appnpm
+56 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+56 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+56 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+56 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+56 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+56 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+56 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+56 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+56 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+56 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+56 silly fetchPackageMetaData  error for create-react-appnpm { Error: Registry returned 404 for GET on https://registry.npmjs.org/create-react-appnpm
+56 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+56 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+56 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+56 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+56 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+56 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+56 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+56 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+56 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+56 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12) pkgid: 'create-react-appnpm', statusCode: 404, code: 'E404' }
+57 silly rollbackFailedOptional Starting
+58 silly rollbackFailedOptional Finishing
+59 silly runTopLevelLifecycles Starting
+60 silly runTopLevelLifecycles Finishing
+61 silly install printInstalled
+62 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/create-react-appnpm
+62 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+62 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+62 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+62 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+62 verbose stack     at emitTwo (events.js:106:13)
+62 verbose stack     at Request.emit (events.js:191:7)
+62 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+62 verbose stack     at emitOne (events.js:101:20)
+62 verbose stack     at Request.emit (events.js:188:7)
+62 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+63 verbose statusCode 404
+64 verbose pkgid create-react-appnpm
+65 verbose cwd /Users/vanessabrewster/js2/unit2
+66 error Darwin 14.5.0
+67 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "create-react-appnpm" "install" "-g" "create-react-app"
+68 error node v6.3.1
+69 error npm  v3.10.6
+70 error code E404
+71 error 404 Registry returned 404 for GET on https://registry.npmjs.org/create-react-appnpm
+72 error 404
+73 error 404 'create-react-appnpm' is not in the npm registry.
+74 error 404 You should bug the author to publish it (or use the name yourself!)
+75 error 404 Note that you can also install from a
+76 error 404 tarball, folder, http url, or git url.
+77 verbose exit [ 1, true ]
